@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesos</title>
+    <style>
+        b
+        {
+        color:red
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio para calcular el peso en diferentes planetas</h1>
+    <script>
+        var eleccion = parseInt(prompt("Que planeta elijes 1 Marte 2 Jupiter"))
+        var usuario = parseFloat(prompt("Cual es tu peso"));
+        var tierra_g = 9.8;
+        var marte_g = 3.7;
+        var jupiter_g = 24.8;
+       
+        if(eleccion==1){
+            var peso_final = parseFloat(usuario * marte_g/tierra_g);
+            document.write("Elejiste Marte jxjxj");
+        }
+        else{
+            var peso_final = parseFloat(usuario * jupiter_g/tierra_g);
+            document.write("Elejiste Jupiter jxjxj")
+        }
+    </script>
+</body>
+</html>

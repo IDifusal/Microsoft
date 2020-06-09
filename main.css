@@ -1,0 +1,20 @@
+body{
+    font-family: Helvetica;
+    background-color: brown;
+}
+ul{
+    font-family: monospace;
+    list-style: square;
+    color: yellow;
+}
+.list{
+    list-style: square;
+}
+#date{
+    font-size:12x;
+    font-style: italic;
+    font-weight: bold;    
+}
+h1{
+    color:white;
+}
